@@ -1,0 +1,15 @@
+"NewNote.Title" = "New Task";
+"NewNote.TextPlaceholder" = "Input text...";
+"NewNote.NoteDate" = "Date for Note";
+"NewNote.AllDay" = "All Day";
+"NewNote.Save" = "Save Note";
+
+"NoteView.Date %@" = "Date: %@";
+"NoteView.DateCreated %@" = "Date created: %@";
+
+"MainView.NotTasks" = "You have no tasks for today...";
+"MainView.TodayTitle" = "Today";
+"MainView.TomorrowTitle" = "Tomorrow";
+"MainView.FutureTitle" = "Future";
+"MainView.PastTitle" = "Past";
+"MainView.Delete" = "Delete";

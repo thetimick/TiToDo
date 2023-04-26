@@ -1,0 +1,13 @@
+"NewNote.Title" = "Новая задача";
+"NewNote.TextPlaceholder" = "Введите текст задачи...";
+"NewNote.NoteDate" = "Дата для задачи";
+"NewNote.AllDay" = "Весь день";
+"NewNote.Save" = "Сохранить задачу";
+"MainView.TodayTitle" = "Сегодня";
+"MainView.TomorrowTitle" = "Завтра";
+"MainView.FutureTitle" = "Позже";
+"MainView.PastTitle" = "Прошедшие";
+"MainView.NotTasks" = "У вас нет задач на сегодня...";
+"NoteView.Date %@" = "Дата: %@";
+"NoteView.DateCreated %@" = "Дата создания: %@";
+"MainView.Delete" = "Удалить";

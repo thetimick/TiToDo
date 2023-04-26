@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42EEEA429F7D40B00BFCB7D /* TiToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EEEA329F7D40B00BFCB7D /* TiToDoApp.swift */; };
+		D42EEEA629F7D40B00BFCB7D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EEEA529F7D40B00BFCB7D /* MainView.swift */; };
+		D42EEEA829F7D40E00BFCB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42EEEA729F7D40E00BFCB7D /* Assets.xcassets */; };
+		D42EEEAB29F7D40E00BFCB7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42EEEAA29F7D40E00BFCB7D /* Preview Assets.xcassets */; };
+		D42EEEB729F7D4DB00BFCB7D /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EEEB629F7D4DB00BFCB7D /* NewNoteView.swift */; };
+		D42EEEBD29F7D73500BFCB7D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D42EEEBC29F7D73500BFCB7D /* Realm */; };
+		D42EEEBF29F7D73500BFCB7D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D42EEEBE29F7D73500BFCB7D /* RealmSwift */; };
+		D42EEEC229F7DD7000BFCB7D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EEEC129F7DD7000BFCB7D /* Note.swift */; };
+		D42EEEC729F7F14E00BFCB7D /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42EEEC629F7F14E00BFCB7D /* NoteView.swift */; };
+		D42EEECA29F8039E00BFCB7D /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = D42EEEC929F8039E00BFCB7D /* SwiftDate */; };
+		D42EEEEC29F9038100BFCB7D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42EEEEE29F9038100BFCB7D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D42EEEA029F7D40B00BFCB7D /* TiToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42EEEA329F7D40B00BFCB7D /* TiToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiToDoApp.swift; sourceTree = "<group>"; };
+		D42EEEA529F7D40B00BFCB7D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D42EEEA729F7D40E00BFCB7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D42EEEAA29F7D40E00BFCB7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D42EEEB629F7D4DB00BFCB7D /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
+		D42EEEC129F7DD7000BFCB7D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		D42EEEC629F7F14E00BFCB7D /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		D42EEEED29F9038100BFCB7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D42EEEF929F9054800BFCB7D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42EEE9D29F7D40B00BFCB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42EEEBF29F7D73500BFCB7D /* RealmSwift in Frameworks */,
+				D42EEEBD29F7D73500BFCB7D /* Realm in Frameworks */,
+				D42EEECA29F8039E00BFCB7D /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42EEE9729F7D40B00BFCB7D = {
+			isa = PBXGroup;
+			children = (
+				D42EEEA229F7D40B00BFCB7D /* TiToDo */,
+				D42EEEA129F7D40B00BFCB7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42EEEA129F7D40B00BFCB7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEA029F7D40B00BFCB7D /* TiToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42EEEA229F7D40B00BFCB7D /* TiToDo */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEB229F7D43300BFCB7D /* Application */,
+				D42EEEC029F7DD5D00BFCB7D /* Models */,
+				D42EEEB129F7D42600BFCB7D /* Modules */,
+				D42EEEB329F7D43F00BFCB7D /* Resources */,
+			);
+			path = TiToDo;
+			sourceTree = "<group>";
+		};
+		D42EEEA929F7D40E00BFCB7D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEAA29F7D40E00BFCB7D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D42EEEB129F7D42600BFCB7D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEB529F7D4A000BFCB7D /* NewNote */,
+				D42EEEB429F7D49800BFCB7D /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D42EEEB229F7D43300BFCB7D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEA329F7D40B00BFCB7D /* TiToDoApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D42EEEB329F7D43F00BFCB7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEA729F7D40E00BFCB7D /* Assets.xcassets */,
+				D42EEEE929F9036700BFCB7D /* Localization */,
+				D42EEEA929F7D40E00BFCB7D /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D42EEEB429F7D49800BFCB7D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEC529F7F14100BFCB7D /* SubViews */,
+				D42EEEA529F7D40B00BFCB7D /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D42EEEB529F7D4A000BFCB7D /* NewNote */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEB629F7D4DB00BFCB7D /* NewNoteView.swift */,
+			);
+			path = NewNote;
+			sourceTree = "<group>";
+		};
+		D42EEEC029F7DD5D00BFCB7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEC129F7DD7000BFCB7D /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D42EEEC529F7F14100BFCB7D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEC629F7F14E00BFCB7D /* NoteView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		D42EEEE929F9036700BFCB7D /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D42EEEEE29F9038100BFCB7D /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42EEE9F29F7D40B00BFCB7D /* TiToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42EEEAE29F7D40E00BFCB7D /* Build configuration list for PBXNativeTarget "TiToDo" */;
+			buildPhases = (
+				D42EEE9C29F7D40B00BFCB7D /* Sources */,
+				D42EEE9D29F7D40B00BFCB7D /* Frameworks */,
+				D42EEE9E29F7D40B00BFCB7D /* Resources */,
+				D42EEEE829F9014400BFCB7D /* SwiftLint */,
+				D42EEEEF29F9046F00BFCB7D /* Translate */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiToDo;
+			packageProductDependencies = (
+				D42EEEBC29F7D73500BFCB7D /* Realm */,
+				D42EEEBE29F7D73500BFCB7D /* RealmSwift */,
+				D42EEEC929F8039E00BFCB7D /* SwiftDate */,
+			);
+			productName = TiToDo;
+			productReference = D42EEEA029F7D40B00BFCB7D /* TiToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42EEE9829F7D40B00BFCB7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D42EEE9F29F7D40B00BFCB7D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D42EEE9B29F7D40B00BFCB7D /* Build configuration list for PBXProject "TiToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = D42EEE9729F7D40B00BFCB7D;
+			packageReferences = (
+				D42EEEBB29F7D73500BFCB7D /* XCRemoteSwiftPackageReference "realm-swift" */,
+				D42EEEC829F8039E00BFCB7D /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
+			productRefGroup = D42EEEA129F7D40B00BFCB7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42EEE9F29F7D40B00BFCB7D /* TiToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42EEE9E29F7D40B00BFCB7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42EEEAB29F7D40E00BFCB7D /* Preview Assets.xcassets in Resources */,
+				D42EEEEC29F9038100BFCB7D /* Localizable.strings in Resources */,
+				D42EEEA829F7D40E00BFCB7D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D42EEEE829F9014400BFCB7D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		D42EEEEF29F9046F00BFCB7D /* Translate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Translate;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/bash -c \"$(curl -fsSL https://polyglot.rocks/run.sh)\" - \"6a548043-d6f7-49f5-b214-0a7afa29cb7a\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42EEE9C29F7D40B00BFCB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42EEEB729F7D4DB00BFCB7D /* NewNoteView.swift in Sources */,
+				D42EEEC729F7F14E00BFCB7D /* NoteView.swift in Sources */,
+				D42EEEA629F7D40B00BFCB7D /* MainView.swift in Sources */,
+				D42EEEA429F7D40B00BFCB7D /* TiToDoApp.swift in Sources */,
+				D42EEEC229F7DD7000BFCB7D /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D42EEEEE29F9038100BFCB7D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42EEEED29F9038100BFCB7D /* en */,
+				D42EEEF929F9054800BFCB7D /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42EEEAC29F7D40E00BFCB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D42EEEAD29F7D40E00BFCB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D42EEEAF29F7D40E00BFCB7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiToDo/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thetimickrus.titodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D42EEEB029F7D40E00BFCB7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiToDo/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thetimickrus.titodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42EEE9B29F7D40B00BFCB7D /* Build configuration list for PBXProject "TiToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42EEEAC29F7D40E00BFCB7D /* Debug */,
+				D42EEEAD29F7D40E00BFCB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42EEEAE29F7D40E00BFCB7D /* Build configuration list for PBXNativeTarget "TiToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42EEEAF29F7D40E00BFCB7D /* Debug */,
+				D42EEEB029F7D40E00BFCB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D42EEEBB29F7D73500BFCB7D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D42EEEC829F8039E00BFCB7D /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D42EEEBC29F7D73500BFCB7D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D42EEEBB29F7D73500BFCB7D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		D42EEEBE29F7D73500BFCB7D /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D42EEEBB29F7D73500BFCB7D /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		D42EEEC929F8039E00BFCB7D /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D42EEEC829F8039E00BFCB7D /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D42EEE9829F7D40B00BFCB7D /* Project object */;
+}
